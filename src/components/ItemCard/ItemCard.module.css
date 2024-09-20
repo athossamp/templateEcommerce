@@ -1,0 +1,25 @@
+.cardTotal {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+.singleCard {
+  padding: 0 25px;
+  max-width: 234px;
+}
+.singleCardImg {
+  text-align: center;
+}
+.singleCardReview {
+  color: #a2a6b0;
+}
+.singleItemCutPrice {
+  text-decoration: line-through;
+}
+.available {
+  color: #78a962;
+  font-size: 10px;
+}
+.unavailable {
+  color: #c94d3f;
+  font-size: 10px;
+}

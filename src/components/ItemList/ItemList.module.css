@@ -1,0 +1,49 @@
+.listTotal {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.singleItem {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.14);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 330px;
+  width: 1166px;
+}
+.singleCardImg {
+  padding: 0 53px;
+}
+.singleCardReview {
+  padding-bottom: 21px;
+}
+.rowItemTitle {
+  padding-bottom: 16px;
+}
+.singleItemTitleReview {
+  padding: 0 53px;
+}
+.availability {
+  padding-bottom: 47px;
+}
+.available {
+  color: #78a962;
+}
+.unavailable {
+  color: #c94d3f;
+}
+
+.singleItemAddCart {
+  background-color: transparent;
+  padding: 8px 20px;
+  border-color: #0156ff;
+  color: #0156ff;
+  border-radius: 50px;
+}
+.singleItemValue {
+  padding-right: 53px;
+}
+.singleItemCutPrice {
+  text-decoration: line-through;
+}

@@ -1,0 +1,56 @@
+.catalogTotal {
+  font-family: "Poppins", sans-serif;
+}
+.catalog {
+  display: flex;
+  margin: 0 253px;
+}
+.viewChangerWrapper {
+  margin: 0 318px;
+}
+.viewChanger {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.buttonViewCard {
+  background-color: transparent;
+  border: none;
+}
+.buttonViewCard.active {
+  background-color: #f5f7ff;
+}
+.buttonViewList {
+  background-color: transparent;
+  border: none;
+}
+.buttonViewList.active {
+  background-color: #f5f7ff;
+}
+.filterWrapper {
+  background-color: #f5f7ff;
+  height: 699px;
+}
+.filter {
+  height: 100%;
+  margin-top: 12px;
+  width: 233px;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.selectFilter {
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.itemCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.itemList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

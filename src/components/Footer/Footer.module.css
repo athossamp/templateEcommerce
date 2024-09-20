@@ -1,0 +1,19 @@
+.totalFooter {
+  background-color: black;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+.footerItems {
+  padding-top: 47px;
+  margin: 0 262px;
+}
+.footerList {
+  margin-top: 45px;
+}
+.footerSeparator {
+  margin-top: 36px;
+}
+.footerIcons {
+  display: flex;
+  justify-content: space-between;
+}

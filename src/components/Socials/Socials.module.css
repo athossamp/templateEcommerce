@@ -1,0 +1,31 @@
+.socials {
+  margin: 0 262px;
+
+  font-family: "Poppins", sans-serif;
+}
+.socials h1 {
+  font-size: 22px;
+  margin-bottom: 21px;
+}
+.socialsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.socialsTotal {
+  text-align: center;
+  margin: 0 9px;
+}
+.socialsTotal img {
+  max-width: 235px;
+}
+.socialsTotal p {
+  max-width: 185px;
+  padding: 10px 25px;
+  font-size: 12px;
+}
+.socialsTotal span {
+  max-width: 235px;
+  font-size: 10px;
+  color: #a2a6b0;
+}

@@ -1,0 +1,60 @@
+.embla {
+	overflow: hidden;
+}
+
+.embla__container {
+	display: flex;
+}
+
+.dots {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;
+	transition: opacity 0.3s ease, background-color 0.3s ease;
+	border: none;
+	position: absolute;
+}
+
+.dot:hover {
+	opacity: 0.5;
+}
+
+.dot.dotSelected {
+	background-color: rgb(184, 139, 255);
+}
+
+.dotContainer {
+	min-width: 15px;
+	max-height: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.circle {
+	stroke-dasharray: 81.64;
+	stroke-dashoffset: 81.64;
+	animation: clock 4s linear forwards;
+}
+
+@keyframes clock {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+.carouselContainer {
+	width: 100%;
+}

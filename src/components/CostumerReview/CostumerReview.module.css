@@ -1,0 +1,53 @@
+.totalReview {
+  background-color: #f5f7ff;
+  margin: 0 380px;
+  margin-top: 58px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.reviewBackground {
+  flex: 0 0 100%;
+}
+.carouselDots {
+  background-color: #cacdd8;
+}
+.carouselSelectedDot {
+  background-color: #0156ff;
+}
+.carouselDotsContainer {
+  position: absolute;
+  width: 0;
+  right: 151px;
+  bottom: 69px;
+}
+.reviewQuote {
+  position: relative;
+  top: 49px;
+  left: 119px;
+}
+.reviewText {
+  padding: 49px 119px 157px 191px;
+}
+.reviewName {
+  position: relative;
+  left: 927px;
+  bottom: 114px;
+}
+.reviewButton {
+  position: relative;
+  bottom: 56px;
+  left: 119px;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 8px 26px;
+  border-color: #0156ff;
+  color: #0156ff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 1280px) {
+  .reviewName {
+    left: 840px;
+  }
+}
